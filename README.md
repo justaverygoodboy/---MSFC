@@ -3,7 +3,7 @@
 
 ## 使用
 ### Front-end project setup
-进入adsys -- 前端项目
+进入frontend -- 前端项目
 ```
 npm install
 ```
