@@ -18,7 +18,7 @@ app.json_encoder = CustomJSONEncoder
 CORS(app,supports_credentials=True)
 
 class MyDB:
-    def __init__(self, h='47.104.160.30', u='lab_user', p="lab123", db=None):
+    def __init__(self, h='127.0.0.1', u='root', p="123", db=None):
         self.db = pymysql.connect(host=h, user=u, password=p, database=db,
                                   cursorclass=pymysql.cursors.DictCursor)
         self.cursor = self.db.cursor()
